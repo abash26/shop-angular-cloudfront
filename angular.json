@@ -13,6 +13,11 @@
           "strict": true
         }
       },
+      "test": {
+        "options": {
+          "codeCoverage": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
