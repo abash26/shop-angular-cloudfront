@@ -15,11 +15,11 @@ jobs:
       run: npm install
     - name: Run lint
       run: npm run lint
-    - name: Run audit
-      run: npm audit fix --force
     - name: Run tests and collect coverage
       run: npm run test
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v3
     - name: Run build
       run: npm run build
+    - name: Run audit
+      run: npm audit fix --force
